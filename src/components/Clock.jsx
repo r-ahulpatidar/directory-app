@@ -54,11 +54,11 @@ const Clock = () => {
   };
 
   return (
-    <div className="flex gap-[1rem] items-center">
+    <div className="flex flex-col md:flex-row gap-[1rem] items-center">
       <select
         value={selectedCountry}
         onChange={handleCountry}
-        className="border border-black rounded-lg dark:bg-blue-300 h-[3rem]"
+        className="border border-black rounded-lg dark:bg-blue-300 h-[3rem] w-[16rem] md:w-auto"
       >
         <option value="">Select a country</option>
         {countries.map((country, index) => (

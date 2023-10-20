@@ -68,7 +68,7 @@ const PostCard = (props) => {
         <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-60">
           <div
             ref={modalRef}
-            className="bg-white p-6 max-w-md rounded-lg text-center"
+            className="bg-white p-6 max-w-md rounded-lg text-center mx-[2rem] md:mx-0"
           >
             <p className="text-lg font-bold">{selectedPost.title}</p>
             <p className="mt-2">{selectedPost.body}</p>
